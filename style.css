@@ -1,0 +1,429 @@
+*{
+    font-family: "Inter", sans-serif;
+    margin: 0px;
+}
+
+/* common styles */
+body{
+    background-color: black;
+}
+.display-flex{
+    display: flex;
+}
+.vh-center{
+    justify-content: center;
+    align-items: center;
+}
+.color-white{
+    color: white;
+}
+.left-text-align{
+    text-align: left;
+}
+.common-red{
+    color: rgba(230, 83, 60, 1);
+}
+.common-red-bg{
+    background-color: rgba(230, 83, 60, 1);
+}
+/* header styles */
+header{
+    width: 100%;
+    height: 715px;
+    background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(255,255,255,0.1) 30%);
+    background-repeat: no-repeat;
+    position: relative;    
+}
+.navbar-title{
+    font-size: 2.25rem;
+    font-weight: bold;
+    margin-top: 58px;
+}
+.nav-options{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    height: 34px;
+    width: 465px;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px;
+    margin-top: 58px;
+}
+.home{
+    background-color: rgba(230, 83, 60, 1);
+    padding: 8px 20px;
+    border-radius: 46px;
+}
+.navbar{
+    justify-content: space-around;
+}
+.about{
+    padding: 0px 20px;
+}
+
+/* banner styles */
+.banner-title{
+    font-size: 4.875rem;
+}
+.banner-para{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+#shape{
+    font-family: "Great Vibes", cursive;
+    /*using this font instead of Miama because Embedding Miama Font Directly is Illegal*/
+}
+.join{
+    border-radius: 42px;
+    border: none;
+    padding: 16px 40px;
+    margin-right: 10px;
+    width: 224px;
+    height: 57px;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.download{
+    background-color: transparent;
+    border: 1.5px solid white;
+    border-radius: 42px;
+    padding: 16px 40px;
+    width: 224px;
+    height: 57px;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.banner{
+    justify-content: space-around;
+}
+.free-work-vid{
+    width: 193px;
+    height: 98px;
+    background-color: rgba(48, 48, 48, 0.54);
+    border: 0.2px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+}
+.banner-img{
+    z-index: 0;
+}
+.workout-vid{
+    left: 1000px;
+    bottom: 400px;
+    flex-direction: column;
+}
+.red-circle{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+.vid-tutorial-text{
+    flex-direction: column;
+    text-align: left;
+}
+.king{
+    text-align: left;
+}
+.vid-tutorial{
+    bottom: 100px;
+    left: 730px;
+}
+.king > h6, .vid-tutorial-text > h6{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.king > p, .vid-tutorial-text > p{
+    font-size: 0.8125rem;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+/* change habits styles */
+.title{
+    margin-top: 100px;
+    font-size: 3rem;
+    font-weight: 900;
+}
+.change-habits{
+    flex-direction: column;
+}
+.change-habits-para{
+    opacity: 50%;
+    text-align: center;
+    margin-top: 14px;
+    margin-bottom: 58px;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+.change-habit-img{
+    height: 180px;
+    width: 180px;
+    border: 4px solid rgba(60, 60, 60, 1);
+    border-radius: 50%;
+}
+.change-habit-imgs{
+    gap: 60px;
+}
+.habits-container{
+    flex-direction: column;
+    text-align: center;
+}
+#img1{
+    background-image: url('images/image\ 3.png');
+    background-position: center;
+    background-size: cover;
+}
+#img2{
+    background-image: url('images/image\ 2.png');
+    background-position: center;
+    background-size: cover;
+}
+#img3{
+    background-image: url('images/image\ 4.png');
+    background-position: center;
+    background-size: cover;
+}
+#img4{
+    background-image: url('images/image\ 5.png');
+    background-position: center;
+    background-size: cover;
+}
+.habit-name{
+    margin-top: 30px;
+    margin-bottom: 6px;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.habit-details{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+/* extra miles section's styles */
+.extra-miles{
+    height: 371px;
+    width: 1060px;
+    background-color: pink;
+    margin: 100px auto;
+    border-radius: 20px;
+}
+.extra-miles-text{
+    flex-direction: column;
+}
+.extra-miles-para{
+    opacity: 50%;
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-bottom: 34px;
+    margin-top: 14px;
+}
+.extra-miles-btn{
+    background-color: red;
+    border-radius: 42px;
+    border: none;
+    width: 224px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    height: 54px;
+    padding: 16px 40px;
+}
+.extra-run-img{
+    background-image: url('images/run.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 312px;
+    width: 366px;
+    border-radius: 30px;
+}
+.extra-miles{
+    justify-content: space-around;
+}
+.extra-miles-title{
+    font-size: 3rem;
+    font-weight: 900;
+}
+/* Diet food styles */
+.diet-food-sec{
+    /* background-color: aquamarine; */
+    height: 500px;
+    width: 1000px;
+    margin: 0px auto;
+    border-radius: 15px;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('images/bisbiswas-artist-sunset-mountains-twilight-sky-clouds-silhou.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+}
+.diet-food-title{
+    font-size: 48px;
+    opacity: 80%;
+}
+.diet-food-para{
+    opacity: 50%;
+    font-size: 14px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+/* BMI Calculator styles */
+.bmi-calculator > h1{
+    font-size: 48px;
+}
+.bmi-calculator{
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+.bmi-heading-texts > p{
+    opacity: 50%;
+}
+.main-calculator-container{
+    background-color: rgb(0, 255, 76);
+    width: 100%;
+    height: 500px;
+    margin-top: 70px;
+    justify-content: space-around;
+}
+th, td{
+    border: 1px solid white;
+    padding: 20px;
+}
+table{
+    border-collapse: collapse;
+}
+.main-calculator-para{
+    opacity: 50%;
+}
+.calculator-inputs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 500px;
+    height: 150px;
+    gap: 5px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.activity-factor{
+    grid-column: span 2;
+}
+.calculator-input::placeholder{
+    color: white;
+    padding-left: 20px;
+}
+.calculator-input{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 7px;
+    border: none;
+}
+option{
+    color: black;
+}
+select{
+    padding-left: 20px;
+}
+
+
+/* meet team section styles */
+.meet-team{
+    text-align: center;
+    flex-direction: column;
+}
+.team-img{
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 800px;
+    height: 450px;
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 10px;
+    gap: 10px;
+    margin-top: 40px;
+}
+.team-img1{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/trainer1.png');
+    background-size: cover;
+    background-position: center; 
+}
+.team-img2{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/trainer2.png');
+    background-size: cover;
+    background-position: center;
+}
+.team-img3{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/trainer3.png');
+    background-size: cover;
+    background-position: center;
+}
+.team-img4{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/trainer4.png');
+    background-size: cover;
+    background-position: center;
+}
+.team-img5{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/trainer5.png');
+    background-size: cover;
+    background-position: center;
+}
+.team-img6{
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('images/trainer6.png');
+    background-size: cover;
+    background-position: center;
+}
+.team-img-text{
+    padding: 10px;
+}
+.trainer{
+    opacity: 50%;
+}
+
+/* footer styles */
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+    margin-top: 80px;
+    flex-direction: column;
+}
+.footer-logo{
+    font-size: 64px;
+}
+.footer-logo-text{
+    opacity: 50%;
+}
+.get-start-text{
+    opacity: 50%;
+}
+.footer-main-items{
+    justify-content: space-evenly;
+}
+.get-started{
+    margin-top: 80px;
+}
+.hr{
+    height: 0.5px;
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.copyright{
+    flex-direction: column;
+}
+.copyright-text{
+    opacity: 50%;
+}
+
+/* responsiveness for small devices */
