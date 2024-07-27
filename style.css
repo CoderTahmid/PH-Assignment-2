@@ -74,6 +74,8 @@ header{
 }
 #shape{
     font-family: 'Miama', sans-serif;
+    font-weight: 400;
+    font-size: 4.875;
 }
 .join{
     border-radius: 42px;
