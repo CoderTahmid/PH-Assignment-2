@@ -551,5 +551,24 @@ footer{
         font-size: 36px;
     }
 
-    
+    /* change habit section  */
+    .change-habit-imgs{
+        display: flex;
+        flex-direction: column;
+    }
+    .change-habits{
+        margin-top: 240px;
+    }
+    .title{
+        font-size: 32px;
+    }
+    .change-habits-para{
+        font-size: 14px;
+    }
+    .habit-name{
+        font-size: 18px;
+    }
+    .habit-details{
+        font-size: 14px;
+    }
 }
