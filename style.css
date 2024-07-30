@@ -26,9 +26,9 @@ body{
 .common-red-bg{
     background-color: rgba(230, 83, 60, 1);
 }
-html{
+/* html{
     font-size: 16px;
-}
+} */
 /* header styles */
 header{
     width: 100%;
@@ -482,9 +482,6 @@ footer{
 
 /* responsiveness for small devices */
 @media screen and (max-width: 576px) {
-    :root{
-        font-size: 7.4px;
-    }
 
     /* header responsive */
     #bars{
@@ -549,15 +546,17 @@ footer{
     }
     .navbar-title{
         font-size: 36px;
+    }   
+    .banner-title{
+        font-size: 36px;
     }
-
     /* change habit section  */
     .change-habit-imgs{
         display: flex;
         flex-direction: column;
     }
     .change-habits{
-        margin-top: 240px;
+        margin-top: 270px;
     }
     .title{
         font-size: 32px;
@@ -571,4 +570,30 @@ footer{
     .habit-details{
         font-size: 14px;
     }
+
+    /* extra miles section */
+    .extra-miles{
+        flex-direction: column;
+        width: 353px;
+        height: 531px;
+        justify-content: space-around;
+    }
+    .extra-run-img{
+        width: 287px;
+        height: 170px;
+        margin: 0px;
+    }
+    .extra-miles-title{
+        font-size: 32px;
+    }
+    .extra-miles-text{
+        margin: 0px;
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    .extra-miles-btn{
+        width: 284px;
+        height: 54px;
+    }
+    
 }
