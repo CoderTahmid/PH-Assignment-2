@@ -482,7 +482,10 @@ footer{
 
 /* responsiveness for small devices */
 @media screen and (max-width: 576px) {
-    
+    :root{
+        font-size: 7.4px;
+    }
+
     /* header responsive */
     #bars{
         display: inline;
@@ -500,7 +503,7 @@ footer{
     .join, .download{
         height: 54px;
         width: 199px;
-        font-size: 1.125rem;
+        font-size: 18px;
         padding: 16px 30px;
     }
     .club{
@@ -514,9 +517,6 @@ footer{
     .banner-text{
         margin: 20px;
     }
-    .banner-title{
-        font-size: 2.25rem;
-    }
     .banner-para{
         font-size: 16px;
         width: 274px;
@@ -527,10 +527,10 @@ footer{
         height: 72.58px;
     }
     .king > h6, .vid-tutorial-text > h6{
-        font-size: 18.14px;
+        font-size: 19.14px;
     }
     .king > p, .vid-tutorial-text > p{
-        font-size: 12.1px;
+        font-size: 13.1px;
     }
     .red-circle{
         height: 30.24px;
@@ -544,4 +544,12 @@ footer{
         left: 235px;
         top: 550px;
     }
+    header{
+        background-image: linear-gradient(to top, rgba(0,0,0,0), rgba(255,255,255,0.1) 20%);
+    }
+    .navbar-title{
+        font-size: 36px;
+    }
+
+    
 }
