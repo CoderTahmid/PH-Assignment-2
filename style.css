@@ -280,6 +280,12 @@ header{
     margin-top: 24px;
     margin-bottom: 48px;
 }
+.diet-food-btn{
+    width: 374px;
+}
+#right-arrow{
+    margin-left: 30px;
+}
 /* BMI Calculator styles */
 .bmi-calculator > h1{
     font-size: 3rem;
@@ -577,6 +583,7 @@ footer{
         width: 353px;
         height: 531px;
         justify-content: space-around;
+        margin-bottom: 40px;
     }
     .extra-run-img{
         width: 287px;
@@ -595,5 +602,20 @@ footer{
         width: 284px;
         height: 54px;
     }
-    
+
+    /*diet food section */
+    .diet-food-sec{
+        height: 350px;
+        width: 90%;
+    }
+    .diet-food-title{
+        font-size: 34px;
+    }
+    .diet-food-btn{
+        width: 314px;
+        font-size: 14px;
+    }
+    #right-arrow{
+        margin-left: 10px;
+    }
 }
