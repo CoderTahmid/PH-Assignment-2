@@ -669,4 +669,27 @@ footer{
     .bmi-btn{
         margin-bottom: 2.6875rem;
     }
+    
+    /* meet team section */
+    .meet-team{
+        margin-top: 4.125rem;
+    }
+    .meet-team-title{
+        font-size: 2rem;
+    }
+    .about-team{
+        font-size: 0.875rem;
+        margin-bottom: 2.3125rem;
+    }
+    .team-img-container{
+        width: 85%;
+        height: 74.25rem;
+        grid-template-columns: repeat(1, 1fr) 
+    }
+    .team-img{
+        height: 272px;
+    }
+    .team-img1, .team-img4{
+        display: none;
+    }
 }
