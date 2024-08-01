@@ -692,4 +692,31 @@ footer{
     .team-img1, .team-img4{
         display: none;
     }
+
+    /* footer */
+    footer{
+        height: 61.625rem;
+    }
+    .footer-main-items{
+        flex-direction: column;
+    }
+    .footer-logo{
+        font-size: 4.375rem;
+    }
+    .get-started{
+        padding-right: 210px;
+        /* margin-left: 20px; */
+    }
+    .hr{
+        width: 22.125rem;
+    }
+    .footer-main-items{
+        margin-bottom: 4.5rem;
+    }
+    .get-started1{
+        margin-top: 1.875rem;
+    }
+    .get-started2{
+        margin-top: 1.25rem;
+    }
 }
